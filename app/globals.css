@@ -4,10 +4,11 @@
 
 @layer components {
   .btn {
-    background-image: linear-gradient(135deg, #63e1d9 -42.11%, #34a0cd 100%);
     filter: drop-shadow(2px 3px 6px rgba(0, 0, 0, 0.16));
     padding: 16px 81px;
     border-radius: 30px;
     color: white;
+    font-weight: 700;
+    align-self: center;
   }
 }

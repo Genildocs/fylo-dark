@@ -17,6 +17,7 @@ export default function Nav() {
             <Link href="#" key={index}>
               <motion.li
                 className={`${raleway.className} text-xs font-normal`}
+                initial={{ textDecoration: "none" }}
                 whileHover={{ textDecoration: "underline" }}
               >
                 {item}

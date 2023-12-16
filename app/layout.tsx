@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { openSans } from "./fonts";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body className={`${openSans.className} bg-dark-blue pt-6`}>
         <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );
