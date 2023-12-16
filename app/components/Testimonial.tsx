@@ -1,30 +1,30 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const testimonial = [
   {
-    text: 'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
-    avatar: '/assets/profile-1.jpg',
-    name: 'Satish Patel',
-    title: 'Founder & CEO, Huddle',
+    text: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
+    avatar: "/assets/profile-1.jpg",
+    name: "Satish Patel",
+    title: "Founder & CEO, Huddle",
   },
   {
-    text: 'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
-    avatar: '/assets/profile-2.jpg',
-    name: 'Bruce McKenzie',
-    title: 'Founder & CEO, Huddle',
+    text: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
+    avatar: "/assets/profile-2.jpg",
+    name: "Bruce McKenzie",
+    title: "Founder & CEO, Huddle",
   },
   {
-    text: 'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
-    avatar: '/assets/profile-3.jpg',
-    name: 'Iva Boyd',
-    title: 'Founder & CEO, Huddle',
+    text: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
+    avatar: "/assets/profile-3.jpg",
+    name: "Iva Boyd",
+    title: "Founder & CEO, Huddle",
   },
 ];
 
 export default function Testimonial() {
   return (
-    <div>
+    <section>
       {testimonial.map((item, index) => (
         <div key={index}>
           <div>
@@ -37,6 +37,6 @@ export default function Testimonial() {
           </div>
         </div>
       ))}
-    </div>
+    </section>
   );
 }

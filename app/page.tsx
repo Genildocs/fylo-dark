@@ -1,11 +1,11 @@
-import Nav from './components/Nav';
-import Testimonial from './components/Testimonial';
+import Store from "./components/Store";
+import Testimonial from "./components/Testimonial";
 
 export default function Home() {
   return (
-    <>
-      <Nav />
+    <main>
+      <Store />
       {/* <Testimonial /> */}
-    </>
+    </main>
   );
 }
