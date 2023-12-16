@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        "auto-fit": "repeat(auto-fit, minmax(3rem, 21rem))",
+      },
       colors: {
         "dark-blue": "#1B2330",
         "dark-blue-2": "#0B1524",
